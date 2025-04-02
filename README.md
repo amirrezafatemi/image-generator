@@ -13,17 +13,18 @@ The mechanism is shallow. When the script executes, it sends the user's prompt t
 checks if the REPLICATE_API_TOKEN is validate and setting up billing steps through replicate.com are complete. Afterwards, it
 gets the result in .webp format.
 ## Getting Started ⚡
+The current version of my python which I tested my program is 3.13.2.
+
 Before running the script, you should have these librarys installed on your system:
 os, flet, replicate, requests.
-The runing version of these packages on my system are listed below :
-  
-  + Python (-> current verion on my system 3.13.2 on Feb 4 2025)
 
-  + replicate (1.0.4)
+The runing version of these packages on my system are listed below :
+
+  + replicate
   
-  + requests  (2.32.3)
+  + requests
   
-  + flet      (0.27.6)
+  + flet
 ## Installation 📚
 Before starting the image-generator.py, run:
 
