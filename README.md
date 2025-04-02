@@ -1,5 +1,5 @@
 # image-generator
-Hello everyone, this is my first project and I know it's far from perfection, but I try my best to do better next time.
+Hello everyone, this is my first project and I know it's far from perfection, but I will try my best to do better next time.
 This is a simple image generator. 
 I used replicate library to get an assist from it's models that like flux.dev (which i used in this project, and you can also
 use other prefered models you want from https://replicate.com).
