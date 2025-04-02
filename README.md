@@ -8,7 +8,6 @@ Furthermore, I also used flet library (from https://flet.dev) to use a simle UI 
 The mechanism is shallow. When the script executes, it sends the user's prompt to the AI model and before doing any progress, it
 checks if the REPLICATE_API_TOKEN is validate and setting up billing steps through replicate.com are complete. Afterwards, it
 gets the result in .webp format.
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # Getting Started
 Before running the script, you should have these librarys installed on your system:
 os, flet, replicate, requests
@@ -17,7 +16,6 @@ os, flet, replicate, requests
   replicate (1.0.4)
   requests  (2.32.3)
   flet      (0.27.6)
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # Contribution
 What I really need from you guys is that you could give a hand in :
   .Fixing bugs
