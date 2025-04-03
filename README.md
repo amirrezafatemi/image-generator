@@ -30,7 +30,7 @@ The runing version of these packages on my system are listed below :
 
 I used this API whith [replicate](https://replicate.com).
 
-Note: Sign up for an API token key and add it to [image-generator.py]
+Note: Sign up for an API token key and add it to [image-generator.py](https://github.com/amirrezafatemi/image-generator/blob/main/image-generator.py)
 ## Installation 📚
 Before starting the image-generator.py, run:
 
