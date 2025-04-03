@@ -30,7 +30,7 @@ The runing version of these packages on my system are listed below :
 
 I used this API whith [replicate](https://replicate.com).
 
-Note: Sign up for an API token key and add it to [image-generator.py](https://github.com/amirrezafatemi/image-generator/blob/main/image-generator.py)
+`Note:` Sign up for an API token key and add it to [image-generator.py](https://github.com/amirrezafatemi/image-generator/blob/main/image-generator.py)
 ## Installation 📚
 Before starting the image-generator.py, run:
 
@@ -55,7 +55,7 @@ git clone https://github.com/amirrezafatemi/image-generator.git
 
 2.Replace your token with the YOUR_TOKEN_API
 
-3.Then run image-generator.py
+3.Then run `image-generator.py`
 
 4.Write your prompt which describes your desired image to generate
 
