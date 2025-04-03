@@ -28,7 +28,7 @@ The runing version of these packages on my system are listed below :
 ## API Reference
 [Black Forest Labs](https://blackforestlabs.ai/)
 
-I used this API whith [replicate](https://replicate.com).
+I used this API whith [replicate](https://replicate.com/black-forest-labs/flux-dev).
 
 `Note:` Sign up for an API token key and add it to [image-generator.py](https://github.com/amirrezafatemi/image-generator/blob/main/image-generator.py)
 ## Installation 📚
