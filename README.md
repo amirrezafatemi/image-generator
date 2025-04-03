@@ -12,7 +12,7 @@ Furthermore, I also used [flet](https://flet.dev) library to use a simle UI page
 The mechanism is shallow. When the script executes, it sends the user's prompt to the AI model and before doing any progress, it
 checks if the REPLICATE_API_TOKEN is validate and setting up billing steps through replicate.com are complete. Afterwards, it
 gets the result in .webp format.
-# Getting Started ⚡
+## Getting Started ⚡
 The current version of my python which I tested my program is 3.13.2.
 
 Before running the script, you should have these librarys installed on your system:
@@ -25,13 +25,13 @@ The runing version of these packages on my system are listed below :
   + requests
   
   + flet
-# API Reference
+## API Reference
 [Black Forest Labs](https://blackforestlabs.ai/)
 
 I used this API whith [replicate](https://replicate.com).
 
 Note: Sign up for an API token key and add it to [image-generator.py]
-# Installation 📚
+## Installation 📚
 Before starting the image-generator.py, run:
 
 ```bash
@@ -45,7 +45,7 @@ pip install replicate
 pip install requests
 pip install flet
 ```
-## Running The Program
+### Running The Program
 1.Download the zip format of file, or run the following code
  ```bash
 git clone https://github.com/amirrezafatemi/image-generator.git
@@ -62,7 +62,7 @@ git clone https://github.com/amirrezafatemi/image-generator.git
 5.Click on the generate image
 
 6.The image will be created
-# Contribution ✨
+## Contribution ✨
 What I really need from you guys is that you could give a hand in :
 
   -**Fixing bugs**
