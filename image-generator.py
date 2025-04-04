@@ -47,6 +47,7 @@ def save_image(image_url, filename="generated_image.webp"):
             print(f"Image Saved Successfully As {filename}")
         else:
             print(f"Failed To Download The Image.\nStatus code: {_response.status_code}")
+        #Github: amirrezafatemi/image-generator
     except Exception as error:
         print(f"""Error Saving Image
                 ERROR(s) Indicates:
@@ -71,18 +72,18 @@ def main(page: flet.Page):
         text="Save Image",disabled=True,
         style=flet.ButtonStyle(
             color={
-                flet.ControlState.HOVERED: flet.Colors.BLACK,
-                flet.ControlState.FOCUSED: flet.Colors.BLACK,
-                flet.ControlState.DEFAULT: flet.Colors.WHITE,
+                flet.ControlState.HOVERED: flet.colors.BLACK,
+                flet.ControlState.FOCUSED: flet.colors.BLACK,
+                flet.ControlState.DEFAULT: flet.colors.WHITE,
             },
-            bgcolor={flet.ControlState.FOCUSED: flet.Colors.BLACK, "": flet.colors.WHITE,
-                     flet.ControlState.HOVERED: flet.Colors.WHITE, "": flet.colors.BLACK},
+            bgcolor={flet.ControlState.FOCUSED: flet.colors.BLACK, "": flet.colors.WHITE,
+                     flet.ControlState.HOVERED: flet.colors.WHITE, "": flet.colors.BLACK},
             padding={flet.ControlState.HOVERED: 20},
-            overlay_color=flet.Colors.TRANSPARENT,
+            overlay_color=flet.colors.TRANSPARENT,
             elevation={"pressed": 0, "": 1},
             animation_duration=1000,
             side={
-                flet.ControlState.DEFAULT: flet.BorderSide(2,flet.Colors.BLACK),
+                flet.ControlState.DEFAULT: flet.BorderSide(2,flet.colors.BLACK),
                 flet.ControlState.HOVERED: flet.BorderSide(1,flet.colors.BLACK),
             },
             shape={
@@ -128,25 +129,25 @@ def main(page: flet.Page):
         label="Enter A Text Prompt",
         hint_text="Decribe Your Picture",
         border_color="Black",
-        focus_color="Black"
+        focused_color="Black"
         )
 
     _generate_button=flet.ElevatedButton(
         text="Generate Image",on_click=generate_and_display_image,
         style=flet.ButtonStyle(
             color={
-                flet.ControlState.HOVERED: flet.Colors.BLACK,
-                flet.ControlState.FOCUSED: flet.Colors.BLACK,
-                flet.ControlState.DEFAULT: flet.Colors.WHITE,
+                flet.ControlState.HOVERED: flet.colors.BLACK,
+                flet.ControlState.FOCUSED: flet.colors.BLACK,
+                flet.ControlState.DEFAULT: flet.colors.WHITE,
             },
-            bgcolor={flet.ControlState.FOCUSED: flet.Colors.BLACK, "": flet.colors.WHITE,
-                     flet.ControlState.HOVERED: flet.Colors.WHITE, "": flet.colors.BLACK},
+            bgcolor={flet.ControlState.FOCUSED: flet.colors.BLACK, "": flet.colors.WHITE,
+                     flet.ControlState.HOVERED: flet.colors.WHITE, "": flet.colors.BLACK},
             padding={flet.ControlState.HOVERED: 20},
-            overlay_color=flet.Colors.TRANSPARENT,
+            overlay_color=flet.colors.TRANSPARENT,
             elevation={"pressed": 0, "": 1},
             animation_duration=1000,
             side={
-                flet.ControlState.DEFAULT: flet.BorderSide(2,flet.Colors.BLACK),
+                flet.ControlState.DEFAULT: flet.BorderSide(2,flet.colors.BLACK),
                 flet.ControlState.HOVERED: flet.BorderSide(1,flet.colors.BLACK),
             },
             shape={
@@ -168,5 +169,4 @@ def main(page: flet.Page):
         ),
     )
 
-if __name__ == '__main__':
-    flet.app(target=main)
+flet.app(main)
