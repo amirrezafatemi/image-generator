@@ -169,4 +169,5 @@ def main(page: flet.Page):
         ),
     )
 
-flet.app(main)
+if __name__="__main__":
+    flet.app(main)
